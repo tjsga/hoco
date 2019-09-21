@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% block body %}
+    <style>
+        .category {
+            border: 1px solid #44cc44;
+            padding: 0px 3px;
+            color: #44cc44;
+            font-size: 100%;
+            text-decoration: none;
+        }
+
+        .category:hover {
+            color: white;
+            background-color: #44cc44;
+            text-decoration: none;
+        }
+        .box {
+            border: 5px solid #2378e8;
+            border-radius: 20px;
+            background-color: #c7dffc;
+            padding: 10px;
+            margin:10px;
+            display: inline-block;
+        }
+        .box:target {
+            background-color: #f0650e;
+            border-color: #f5b790;
+        }
+    </style>
+    <h1>Homecoming 2019 Voting</h1>
+    <h4>Thank you for voting! Without your help homecoming wouldn't be possible. Choose a category:</h4>
+    <h3>
+        <a href="#banner" class="category">Banner</a>
+        <a href="#canned" class="category">Canned Food Sculpture</a>
+        <a href="#song" class="category">Class Song</a>
+        <a href="#float" class="category">Float</a>
+        <a href="#mex" class="category">MEX</a>
+        <a href="#shirt" class="category">T-Shirt Design</a>
+        <a href="#video" class="category">Spirit Video</a>
+    </h3>
+    <div id="banner" class="box">
+        <h2>Banner <a href="">(back)</a></h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpkYXfxjfUpz454rrQpRJn3n7Y2U7VB_HhUPStJuvh8oNMrA/viewform?embedded=true" width="640" height="801" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <div id="canned" class="box">
+        <h2>Canned Food Sculpture <a href="">(back)</a></h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfybHzaZFgOfUL5JUmTCi_pY0r3Zcw1JMIg6PJ3lUXvuLVbdw/viewform?embedded=true" width="640" height="801" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <div id="song" class="box">
+        <h2>Class Song <a href="">(back)</a></h2>
+        <ul>
+            <li><a href="https://soundcloud.com/robert-crotts-173234691/2020-class-song" target="_blank">Class of 2020</a></li>
+            <li><a href="https://soundcloud.com/user-659478903/juicy-juniors-prod-by-nape" target="_blank">Class of 2021</a></li>
+            <li><a href="https://soundcloud.com/lildahroo/22thefuture" target="_blank">Class of 2022</a></li>
+            <li><a href="https://soundcloud.com/notjohanna/funky-freshmen-prod-atomic-blonde-feat-atomic-blonde-frat-boy-chad-and-dj-dawg" target="_blank">Class of 2023</a></li>
+        </ul>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMVJodGYwrogK0kizAk42gmVCpCnawygHUOIX24qCY0LRTOg/viewform?embedded=true" width="640" height="801" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <div id="float" class="box">
+        <h2>Float <a href="">(back)</a></h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfO-nTl16o6XDfdS8bN_xTIUcTomcN6tom5_0P9seZ8zVypGA/viewform?embedded=true" width="640" height="801" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <div id="mex" class="box">
+        <h2>MEX <a href="">(back)</a></h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSet8Pthsy1f9XSnRf_VOE1kp8fYFaATVseR54anq6i6AR0nsw/viewform?embedded=true" width="640" height="801" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <div id="shirt" class="box">
+        <h2>T-Shirt Design <a href="">(back)</a></h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenfNOPjojuTiSxmdHJF5DxtiT3o6HKkLljCSgDZbHDg6egkw/viewform?embedded=true" width="640" height="801" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <div id="video" class="box">
+        <h2>Spirit Video <a href="">(back)</a></h2>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=0W239EdfliQ" target="_blank">Class of 2020</a></li>
+            <li><a href="https://www.youtube.com/watch?v=xlJXoDRxkmI" target="_blank">Class of 2021</a></li>
+            <li><a href="https://www.youtube.com/watch?v=DrVMapM1KRw" target="_blank">Class of 2022</a></li>
+            <li><a href="https://www.youtube.com/watch?v=9dcUTN3Yka4" target="_blank">Class of 2023</a></li>
+        </ul>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpZ147bp--T0UPhVavOgV884wO5P17_q4yIu7nCEr_OMWsOw/viewform?embedded=true" width="640" height="804" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+{% endblock %}
