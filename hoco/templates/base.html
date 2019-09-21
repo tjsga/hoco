@@ -10,14 +10,19 @@
 
         <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
         <link rel="stylesheet" href="{% static 'style.css' %}">
+        
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
+        
         {% block head %}{% endblock %}
     </head>
-    <body>
+    <body class="w-full" style="font-family: 'Open Sans';">
         {% block root %}
-            <div class="" id="root" style="background: #FFFFFF;margin:10px;margin-left:20px;">
+            <div class="md:w-3/4 w-full mx-auto px-4 py-8" id="root">
                 {% block body %}{% endblock %}
             </div>
         {% endblock %}
     </body>
 </html>
+
